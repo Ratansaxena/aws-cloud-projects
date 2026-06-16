@@ -21,7 +21,9 @@ The infrastructure should provide:
 * Private Application Hosting
 
 The application servers are deployed in private subnets while the Load Balancer handles public traffic.
+## Images
 
+![AWS Infrastructure](images/Assigment%20infra.jpeg)
 ---
 
 ## Spring3Hibernate Application
