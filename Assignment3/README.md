@@ -1,4 +1,4 @@
-# Assignment 03 - Nginx Reverse Proxy, High Availability, Disaster Recovery & Auto Scaling on AWS
+# Assignment 3 - Nginx Reverse Proxy, High Availability, Disaster Recovery & Auto Scaling on AWS
 
 ## Problem Statement
 
