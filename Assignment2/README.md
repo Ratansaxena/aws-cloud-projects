@@ -20,7 +20,7 @@ The objective of this assignment is to:
 * Create an IAM User using Terraform.
 * Create a custom IAM Policy for S3 access.
 * Attach the IAM Policy to the IAM User.
-* Provide secure and controlled access to the S3 Bucket.
+* YES  Provide secure and controlled access to the S3 Bucket.
 
 ---
 
