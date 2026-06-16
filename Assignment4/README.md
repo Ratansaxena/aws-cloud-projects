@@ -1,4 +1,4 @@
-# Assignment 04 - Infrastructure Implementation using Terraform IaC
+# Assignment 4 - Infrastructure Implementation using Terraform Ia
 
 ## Problem Statement
 
