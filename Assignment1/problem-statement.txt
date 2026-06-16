@@ -1,0 +1,29 @@
+## Problem Statement
+
+Modern web applications require an infrastructure that is highly available, scalable, secure, and capable of handling varying user traffic without service interruption. Deploying application servers directly on public networks increases security risks and limits scalability.
+
+The objective of this assignment is to design and implement a secure AWS infrastructure for hosting the Spring 3 Hibernate application. The architecture must ensure that application servers are deployed in private subnets while remaining accessible to end users through an Application Load Balancer. The infrastructure should automatically adjust to changing workloads using an Auto Scaling Group and provide secure outbound internet access through a NAT Gateway.
+
+The solution should follow AWS best practices by implementing network isolation, controlled access through Security Groups, fault tolerance across multiple Availability Zones, and automatic scaling to maintain application performance and availability.
+
+### Key Requirements
+
+* Design a highly available AWS architecture.
+* Deploy the Spring 3 Hibernate application on EC2 instances.
+* Place application servers in private subnets.
+* Configure an Application Load Balancer to distribute traffic.
+* Implement an Auto Scaling Group for dynamic scaling.
+* Use Security Groups to control network access.
+* Configure NAT Gateway for outbound internet access from private instances.
+* Ensure high availability through Multi-AZ deployment.
+
+### Expected Outcome
+
+A secure, scalable, and fault-tolerant AWS infrastructure where:
+
+* Users access the application through an Application Load Balancer.
+* Application servers remain protected within private subnets.
+* Traffic is distributed across multiple EC2 instances.
+* Auto Scaling automatically adjusts capacity based on demand.
+* The application remains highly available even during instance or Availability Zone failures.
+* Security and operational best practices are maintained throughout the infrastructure.

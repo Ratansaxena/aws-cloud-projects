@@ -1,0 +1,49 @@
+# Problem Statement
+
+A client is running its application infrastructure on AWS Cloud, but due to increasing traffic and user requests, the current environment is unable to handle the load efficiently. To improve performance, reliability, and scalability, the client wants to introduce Nginx as a reverse proxy layer between users and application services.
+
+The client also requires High Availability (HA) and Disaster Recovery (DR) capabilities to ensure that application services remain accessible even during instance failures or traffic spikes. Additionally, the client wants version-controlled Nginx deployments with the ability to upgrade, rollback, and perform rolling deployments using Amazon Machine Images (AMIs) and Auto Scaling Groups (ASGs).
+
+As the infrastructure evolves, the client has requested additional capabilities such as:
+
+* Hosting static web content through Nginx.
+* Storing and serving images from Amazon S3.
+* Accessing content through CloudFront CDN for lower latency.
+* Path-based routing using a single Application Load Balancer.
+* Secure access using Bastion Hosts and Security Groups.
+* Fine-grained IAM permissions and S3 bucket restrictions.
+* Automated recovery from unhealthy instances through Auto Scaling.
+* Blue-Green Deployment strategy for seamless upgrades and rollbacks.
+
+The solution must be implemented entirely within the AWS environment while following security, scalability, availability, and operational best practices.
+
+## Business Requirements
+
+* Deploy Nginx as a Reverse Proxy.
+* Create Versioned AMIs (V1 and V2).
+* Upgrade and Rollback between versions.
+* Implement Load Balancer and Auto Scaling Group.
+* Perform Load Testing and Scaling Validation.
+* Host Web Pages through Nginx.
+* Store Images in Amazon S3.
+* Serve Images using CloudFront CDN.
+* Configure Path-Based Routing through ALB.
+* Implement Bastion Host Architecture.
+* Enforce IAM and S3 Security Controls.
+* Maintain High Availability and Disaster Recovery.
+
+## Expected Outcome
+
+The final solution should provide:
+
+* Highly Available Infrastructure
+* Scalable Nginx Middleware Layer
+* Automated Recovery and Self-Healing
+* Secure Network Architecture
+* Version-Controlled Deployments
+* Rollback Capability
+* Centralized Static Content Storage
+* Low Latency Content Delivery using CDN
+* Secure IAM and S3 Access Management
+* Production-Ready AWS Architecture
+	

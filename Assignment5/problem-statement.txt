@@ -1,0 +1,38 @@
+## Problem Statement
+
+The objective of this assignment is to implement AWS infrastructure using Terraform Modules by following Infrastructure as Code (IaC) principles. The infrastructure should be organized into reusable and modular components such as VPC, Subnet, Security Group, and EC2 Instance.
+
+Additionally, Terraform State Management must be configured using Amazon S3 to store the state file remotely, and DynamoDB should be used for State Locking to prevent concurrent modifications. The solution should follow Terraform best practices for scalability, maintainability, and collaboration.
+
+### Requirements
+
+* Create reusable Terraform modules for:
+
+  * VPC
+  * Subnet
+  * Security Group
+  * EC2 Instance
+
+* Configure AWS Provider.
+
+* Implement Remote State Management using:
+
+  * Amazon S3 Bucket
+
+* Implement State Locking using:
+
+  * Amazon DynamoDB Table
+
+* Validate, Plan, and Deploy infrastructure using Terraform commands.
+
+* Follow proper project structure and modular design principles.
+
+### Expected Outcome
+
+A fully functional AWS infrastructure deployed through Terraform Modules with:
+
+* Modular and reusable Terraform code
+* Remote Terraform State stored in S3
+* State Locking enabled using DynamoDB
+* Successfully provisioned AWS resources (VPC, Subnet, Security Group, and EC2 Instance)
+* Improved maintainability, security, and team collaboration

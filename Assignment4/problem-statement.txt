@@ -1,0 +1,30 @@
+# Problem Statement
+
+Organizations require a reliable and automated way to provision cloud infrastructure while maintaining consistency, scalability, and security. Manual infrastructure deployment is time-consuming, error-prone, and difficult to manage across environments.
+
+The objective of this assignment is to design and implement the infrastructure for an application using **Terraform Infrastructure as Code (IaC)** on AWS. The infrastructure must be provisioned based on an approved architecture diagram and should include all necessary components such as networking, compute resources, load balancing, and security configurations.
+
+The solution should follow Terraform best practices, maintain consistent provider versioning, and automate infrastructure provisioning through reusable and manageable code. Additionally, Terraform Remote State Management should be implemented using **Amazon S3** to ensure centralized, secure, and collaborative state management.
+
+### Key Requirements
+
+* Design and document the infrastructure architecture.
+* Provision AWS resources using Terraform.
+* Implement networking components (VPC, Subnets, Route Tables, etc.).
+* Deploy compute resources required by the application.
+* Configure Load Balancer and Auto Scaling components if applicable.
+* Implement Security Groups and access controls.
+* Store Terraform state remotely in Amazon S3.
+* Follow Infrastructure as Code (IaC) and Terraform best practices.
+
+### Expected Outcome
+
+A fully automated AWS infrastructure deployed using Terraform that is:
+
+* Scalable
+* Secure
+* Highly Available
+* Easy to Manage
+* Reproducible Across Environments
+
+The project should demonstrate practical implementation of Infrastructure as Code principles while leveraging AWS cloud services and Terraform automation capabilities.

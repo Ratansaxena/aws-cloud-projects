@@ -1,0 +1,30 @@
+## Problem Statement
+
+In modern cloud environments, organizations need secure and scalable storage solutions to manage application data, backups, logs, and static content. At the same time, it is essential to control who can access these resources and what actions they are allowed to perform.
+
+Manually creating and managing AWS resources can lead to configuration inconsistencies, security vulnerabilities, and operational inefficiencies. To overcome these challenges, Infrastructure as Code (IaC) can be used to automate resource provisioning and access management.
+
+The objective of this assignment is to use Terraform to automate the creation of an Amazon S3 Bucket with versioning enabled and appropriate resource tagging. Additionally, an IAM User must be created with a custom IAM Policy that grants controlled access to the S3 bucket. The policy should allow the user to perform required operations such as listing bucket contents, uploading objects, downloading objects, and managing files within the bucket.
+
+The solution should follow AWS security best practices by implementing least-privilege access, proper resource tagging, and automated infrastructure provisioning through Terraform.
+
+### Key Requirements
+
+* Create an Amazon S3 Bucket using Terraform.
+* Enable Versioning on the S3 Bucket.
+* Apply meaningful tags for resource identification.
+* Create an IAM User.
+* Create a custom IAM Policy for S3 access.
+* Attach the policy to the IAM User.
+* Provide secure and controlled access to the S3 Bucket.
+* Follow Infrastructure as Code (IaC) best practices.
+
+### Expected Outcome
+
+After successful implementation:
+
+* A version-enabled S3 Bucket is provisioned.
+* An IAM User is created for bucket access.
+* A custom IAM Policy is attached to the user.
+* The user can securely interact with the S3 Bucket according to assigned permissions.
+* Resource management becomes automated, repeatable, and secure through Terraform.
