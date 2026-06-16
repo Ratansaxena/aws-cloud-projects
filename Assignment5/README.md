@@ -1,4 +1,4 @@
-# Assignment 05 - Implement Infrastructure with Terraform Modules
+# Assignment 5 - Implement Infrastructure with Terraform Modules
 
 ## Overview
 
